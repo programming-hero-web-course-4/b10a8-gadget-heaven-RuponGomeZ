@@ -1,0 +1,185 @@
+{
+    "products": [
+      {
+        "product_id": "L001",
+        "product_title": "Dell XPS 15",
+        "product_image": "https://example.com/images/dell-xps-15.jpg",
+        "category": "Laptops",
+        "price": 1299.99,
+        "description": "High-performance laptop with powerful GPU and fast processor.",
+        "Specification": [
+          "Intel i7 Processor",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "L002",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://example.com/images/macbook-air-m2.jpg",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "Lightweight and stylish ultrabook with long battery life.",
+        "Specification": [
+          "Apple M2 Chip",
+          "8GB RAM",
+          "256GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": "P001",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://example.com/images/galaxy-s23-ultra.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "Top-tier smartphone with excellent camera and display.",
+        "Specification": [
+          "6.8-inch AMOLED Display",
+          "Quad Camera System",
+          "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "P002",
+        "product_title": "OnePlus 11",
+        "product_image": "https://example.com/images/oneplus-11.jpg",
+        "category": "Phones",
+        "price": 699.99,
+        "description": "Affordable smartphone with decent performance and good battery life.",
+        "Specification": [
+          "6.7-inch AMOLED Display",
+          "Triple Camera",
+          "4500mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.3
+      },
+      {
+        "product_id": "A001",
+        "product_title": "Sony WF-1000XM4",
+        "product_image": "https://example.com/images/sony-wf-1000xm4.jpg",
+        "category": "Accessories",
+        "price": 59.99,
+        "description": "Compact and high-quality wireless earbuds with noise cancellation.",
+        "Specification": [
+          "Bluetooth 5.2",
+          "Up to 10 hours battery life",
+          "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "A002",
+        "product_title": "Anker PowerCore 10000",
+        "product_image": "https://example.com/images/anker-powercore.jpg",
+        "category": "Accessories",
+        "price": 39.99,
+        "description": "High-capacity power bank with fast charging capabilities.",
+        "Specification": [
+          "10,000mAh Capacity",
+          "USB-C Fast Charging",
+          "Lightweight Design"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "S001",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://example.com/images/apple-watch-8.jpg",
+        "category": "Smart Watches",
+        "price": 149.99,
+        "description": "Feature-rich smartwatch with fitness tracking and heart rate monitoring.",
+        "Specification": [
+          "Heart Rate Monitor",
+          "Sleep Tracking",
+          "Waterproof Design"
+        ],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": "S002",
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://example.com/images/galaxy-watch-5.jpg",
+        "category": "Smart Watches",
+        "price": 299.99,
+        "description": "Elegant smartwatch with premium build and advanced features.",
+        "Specification": [
+          "Stainless Steel Case",
+          "AMOLED Display",
+          "Wireless Charging"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "M001",
+        "product_title": "MacBook Pro 16",
+        "product_image": "https://example.com/images/macbook-pro-16.jpg",
+        "category": "MacBook",
+        "price": 1999.99,
+        "description": "Powerful MacBook Pro with M-series chip and Retina Display.",
+        "Specification": [
+          "Apple M2 Pro Chip",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "M002",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://example.com/images/macbook-air-m1.jpg",
+        "category": "MacBook",
+        "price": 1299.99,
+        "description": "Lightweight and fast MacBook Air with great battery life.",
+        "Specification": [
+          "Apple M1 Chip",
+          "8GB RAM",
+          "256GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "I001",
+        "product_title": "iPhone 14 Pro Max",
+        "product_image": "https://example.com/images/iphone-14-pro-max.jpg",
+        "category": "Iphone",
+        "price": 1199.99,
+        "description": "Latest iPhone with A16 Bionic chip and ProMotion Display.",
+        "Specification": [
+          "6.7-inch OLED Display",
+          "Triple Camera System",
+          "iOS 16"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "I002",
+        "product_title": "iPhone 13 Mini",
+        "product_image": "https://example.com/images/iphone-13-mini.jpg",
+        "category": "Iphone",
+        "price": 899.99,
+        "description": "Compact yet powerful iPhone with excellent battery life.",
+        "Specification": [
+          "5.4-inch Super Retina Display",
+          "Dual Camera System",
+          "iOS 15"
+        ],
+        "availability": true,
+        "rating": 4.6
+      }
+    ]
+  }
+  

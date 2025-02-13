@@ -1,11 +1,13 @@
 import { CiHeart } from "react-icons/ci";
 import { TiShoppingCart } from "react-icons/ti";
+import { NavLink, useLocation } from "react-router-dom";
 
 
 
 const NavBar = () => {
+    const location = useLocation();
     return (
-        <div className="navbar text-white">
+        <div className={location.pathname === '/' ? "navbar text-white" : "text-black navbar"}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,34 +24,29 @@ const NavBar = () => {
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul
+                    <div
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-
-                        </li>
-                        <li><a>Item 3</a></li>
-                    </ul>
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black text-center">
+                        <NavLink to={'/'}>Home</NavLink>
+                        <NavLink>Statistics</NavLink>
+                        <NavLink>Dashboard</NavLink>
+                    </div>
                 </div>
                 <a className="btn btn-ghost text-xl">Gadget Heaven</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <summary>Pardent</summary>
-                    </li>
-                    <li><a>Item 3</a></li>
-                </ul>
+            <div className="navbar-center hidden lg:flex gap-3">
+                <div className="menu menu-horizontal px-1 mx-5 mr-5 flex gap-7">
+                    <NavLink>Home</NavLink>
+                    <NavLink to={"/statics"}>Statistics</NavLink>
+                    <NavLink>Dashboard</NavLink>
+                </div>
             </div>
             <div className="navbar-end">
                 <div className="flex gap-3">
-                    <div style={{ fontSize: '24px' }} className="hover:cursor-pointer">
+                    <div style={{ fontSize: '24px' }} className="hover:cursor-pointer border bg-white rounded-full text-black p-1">
                         <CiHeart />
                     </div>
-                    <div className="hover:cursor-pointer" style={{ fontSize: '24px' }}>
+                    <div className="hover:cursor-pointer border bg-white rounded-full text-black p-1" style={{ fontSize: '24px' }}>
                         <TiShoppingCart />
                     </div>
                 </div>
