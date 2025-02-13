@@ -10,6 +10,8 @@ import Root from './Components/Root/Root.jsx';
 import Statics from './Components/Statics/Statics.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import Home from './Components/Home/Home.jsx';
+import ProductContainer from './Components/ProductContainer/ProductContainer.jsx';
+import Details from './Components/Details/Details.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,11 +22,21 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
-      }
-      , {
+      },
+      {
         path: "/statics",
         element: <Statics></Statics>
-      }]
+      },
+      {
+        path: "/productContainer",
+        element: <ProductContainer></ProductContainer>
+      },
+      {
+        path: "/details",
+        element: <Details></Details>
+      }
+
+    ]
   },
 ]);
 
