@@ -1,3 +1,6 @@
+
+
+
 const Categories = ({ products, handleSetCategory }) => {
     const changeCategory = category => {
         handleSetCategory(category);
