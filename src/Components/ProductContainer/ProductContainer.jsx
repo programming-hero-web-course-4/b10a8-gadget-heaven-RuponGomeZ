@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 
 
 
 const ProductContainer = ({ product }) => {
-    const { title, price, image } = product;
+    const { title, price, image, id } = product;
     // console.log(product.id);
+    // console.log(product);
 
     return (
         <div>
@@ -17,7 +19,9 @@ const ProductContainer = ({ product }) => {
                     <h2 className="card-title">{title}</h2>
                     <p>{price}</p>
                     <div className="card-actions justify-start">
-                        <button className="btn btn-primary">View Details</button>
+                        <Link to={`/details/${id}`}>
+                            <button className="btn btn-primary">View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>

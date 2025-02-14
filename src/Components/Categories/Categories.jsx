@@ -1,21 +1,21 @@
+const Categories = ({ products, handleSetCategory }) => {
+    const changeCategory = category => {
+        handleSetCategory(category);
+    }
 
-
-const Categories = ({ products }) => {
-    // const categories = products.map(product => product.category);
-    // console.log(categories);
+    // Extract unique categories from products
+    const uniqueCategories = ['All Product', ...new Set(products.map(product => product.category))];
 
     return (
         <div className="flex flex-col gap-4 bg-slate-100 h-full p-7 rounded-xl">
-            <button className="btn btn-outline bg-gray-300 rounded-full">All Product</button>
-            <button className="btn btn-outline bg-gray-300 rounded-full">Laptops</button>
-            <button className="btn btn-outline bg-gray-300 rounded-full">Phones</button>
-            <button className="btn btn-outline bg-gray-300 rounded-full">Accessories</button>
-            <button className="btn btn-outline bg-gray-300 rounded-full">Smart Watches</button>
-            <button className="btn btn-outline bg-gray-300 rounded-full">MacBook</button>
-            <button className="btn btn-outline bg-gray-300 rounded-full">Iphone</button>
-            {/* {
-                categories.map(category => <Category category={category}></Category>)
-            } */}
+            {uniqueCategories.map((category, index) => (
+                <button
+                    key={index}
+                    className="btn btn-outline bg-gray-300 rounded-full"
+                    onClick={() => changeCategory(category)}>
+                    {category}
+                </button>
+            ))}
         </div>
     );
 };
