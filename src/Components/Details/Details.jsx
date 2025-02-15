@@ -2,33 +2,31 @@ import { useLoaderData, useParams } from "react-router-dom";
 import CommonBanner from "../CommonBanner/CommonBanner";
 import { CiHeart } from "react-icons/ci";
 import { TiShoppingCart } from "react-icons/ti";
+import { ToastContainer } from 'react-toastify';
 
 import { addTostoredCartList, addToWishlist } from "../addToDb";
 
 const Details = () => {
     const { id } = useParams();
-    // console.log(id);
     const products = useLoaderData();
 
     const intId = parseInt(id);
-    // console.log(intId);
 
     const displayProduct = products.find(product => product.id === intId);
-    // console.log(displayProduct);
-
     const { title, price, rating, desc, specs, image } = displayProduct;
 
 
-    const handleAddToCart = (product) => {
-        addTostoredCartList(product);
+    const handleAddToCart = (cart) => {
+        addTostoredCartList(cart.id);
     }
 
     const handleAddToWishlist = (product) => {
-        addToWishlist(product);
+        addToWishlist(product.id);
+
     }
     return (
         <div>
-            <div className="bg-[#9538E2] h-[400px] mx-4 rounded-lg banner-background relative mt-20  text-center text-white">
+            <div className="">
 
                 <CommonBanner title={'Product Details'} description={'Explore the latest gadgets that will take your experience to the next level. From smart devices to  the coolest accessories, we have it all!'}></CommonBanner>
             </div>
@@ -71,6 +69,7 @@ const Details = () => {
                         </div>
                     </div>
                 </div>
+                <ToastContainer />
             </div>
         </div>
     );

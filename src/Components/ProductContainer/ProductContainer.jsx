@@ -17,10 +17,10 @@ const ProductContainer = ({ product }) => {
                 </figure>
                 <div className="card-body ">
                     <h2 className="card-title">{title}</h2>
-                    <p>{price}</p>
+                    <p>Price: {price}</p>
                     <div className="card-actions justify-start">
                         <Link to={`/details/${id}`}>
-                            <button className="btn btn-primary">View Details</button>
+                            <button className="btn outline-none border-[#9538E2] rounded-full text-[#9538E2]">View Details</button>
                         </Link>
                     </div>
                 </div>

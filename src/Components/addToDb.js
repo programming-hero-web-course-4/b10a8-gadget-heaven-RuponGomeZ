@@ -1,4 +1,4 @@
-import js from "@eslint/js";
+import { toast } from 'react-toastify';
 
 
 const getStoredCartList = () => {
@@ -12,15 +12,15 @@ const getStoredCartList = () => {
     }
 }
 
-const addTostoredCartList = (id) => {
-    console.log(id);
+const addTostoredCartList = (cart) => {
 
     const storedList = getStoredCartList();
-    if (storedList.includes(id)) {
-        alert("Already exist in your cart");
+    // console.log(storedList);
+    if (storedList.includes(cart)) {
+        toast("Already exist in your cart");
     }
     else {
-        storedList.push(id);
+        storedList.push(cart);
         const storedCartlistStr = JSON.stringify(storedList);
         localStorage.setItem('cart', storedCartlistStr);
     }
@@ -29,26 +29,28 @@ const addTostoredCartList = (id) => {
 const getWishList = () => {
     const storedWishlistStr = localStorage.getItem('wish-list')
     if (storedWishlistStr) {
-        const storedWishlist = JSON.parse(storedWishlist);
+        const storedWishlist = JSON.parse(storedWishlistStr);
+
         return storedWishlist;
     }
     else {
         return [];
     }
 }
+// console.log(getWishList);
 
 const addToWishlist = (product) => {
-    console.log(product);
+    // console.log(product);
     const storedWishlist = getWishList();
 
     if (storedWishlist.includes(product)) {
-        alert("Already Exists in your Wishlist")
+        toast("Already Exists in your Wishlist")
     }
     else {
         storedWishlist.push(product);
         const storedWishlistStr = JSON.stringify(storedWishlist);
-        localStorage.setItem('Wish-list', storedWishlistStr);
+        localStorage.setItem('wish-list', storedWishlistStr);
     }
 }
 
-export { addTostoredCartList, getStoredCartList, addToWishlist }
+export { addTostoredCartList, getStoredCartList, addToWishlist, getWishList }

@@ -1,13 +1,13 @@
 import { CiHeart } from "react-icons/ci";
 import { TiShoppingCart } from "react-icons/ti";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 
 
 const NavBar = () => {
     const location = useLocation();
     return (
-        <div className={location.pathname === '/' ? "navbar text-white" : "text-black navbar"}>
+        <div className={location.pathname === '/' ? "navbar text-white " : "text-black navbar "}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,16 +29,20 @@ const NavBar = () => {
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black text-center">
                         <NavLink to={'/'}>Home</NavLink>
                         <NavLink to={"/statics"}>Statistics</NavLink>
-                        <NavLink>Dashboard</NavLink>
+                        <NavLink to={'/dashboard'}>Dashboard</NavLink>
                     </div>
                 </div>
-                <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+                <div className="btn btn-ghost text-xl">
+                    <Link to={'/'}>Gadget Heaven
+                    </Link>
+
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex gap-3">
                 <div className="menu menu-horizontal px-1 mx-5 mr-5 flex gap-7">
                     <NavLink>Home</NavLink>
                     <NavLink to={"/statics"}>Statistics</NavLink>
-                    <NavLink>Dashboard</NavLink>
+                    <NavLink to={'/dashboard'}>Dashboard</NavLink>
                 </div>
             </div>
             <div className="navbar-end">

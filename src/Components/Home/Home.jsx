@@ -9,6 +9,7 @@ const Home = () => {
             <div className="mt-96">
                 <Products></Products>
             </div>
+
         </div>
     );
 };
