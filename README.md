@@ -3,10 +3,10 @@
 ✨ Your go-to destination for the latest and greatest gadgets ✨
 
 ## Live Website
-[https://magical-kelpie-c79162.netlify.app/](#)
+[https://magical-kelpie-c79162.netlify.app/](https://magical-kelpie-c79162.netlify.app/)
 
 ## Requirement Document
-[https://drive.google.com/file/d/1374KZKSfnLQ-wmR0Un8tFyNR-SBBvpJ6/view](#)
+[Requirement Document Link](https://drive.google.com/file/d/1374KZKSfnLQ-wmR0Un8tFyNR-SBBvpJ6/view)
 
 ## React Fundamental Concepts Used
 - Components
