@@ -1,19 +1,18 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import CartItem from "../CartItem/CartItem";
 import CommonBanner from "../CommonBanner/CommonBanner";
 import { getStoredCartList, getWishList } from "../addToDb";
 import { toast, ToastContainer } from "react-toastify";
 import Modal from "../Modal/Modal";
-import { FaCircleCheck } from "react-icons/fa6";
-
 
 const Dashboard = () => {
-
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [products, setProducts] = useState();
     const [activeButton, setActiveButton] = useState('cart');
     const [totalCost, setTotalCost] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch('/data.json')
@@ -34,7 +33,6 @@ const Dashboard = () => {
         const filteredItems = products.filter(product => cartStoredItem.includes(product.id));
         return filteredItems;
     }
-
 
     const handleFilterCart = () => {
         const filteredItems = filterLocalStorage(products, cartStoredItem);
@@ -86,6 +84,18 @@ const Dashboard = () => {
         setFilteredProducts(sortedProducts);
     }
 
+    const clearCart = () => {
+        localStorage.removeItem('cart');
+        setFilteredProducts([]);
+        setTotalCost(0);
+    }
+
+    const handleCloseModal = () => {
+        clearCart();
+        setIsModalOpen(false);
+        navigate('/');
+    }
+
     return (
         <div>
             <CommonBanner title={"Dashboard"} description={"Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"}></CommonBanner>
@@ -107,7 +117,7 @@ const Dashboard = () => {
             <CartItem products={filteredProducts} handleRemove={handleRemove}></CartItem>
             <ToastContainer />
             <div className="text-center">
-                <Modal totalCost={totalCost} isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+                <Modal totalCost={totalCost} isOpen={isModalOpen} onClose={handleCloseModal}>
 
                 </Modal>
             </div>

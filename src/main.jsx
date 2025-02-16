@@ -14,6 +14,7 @@ import ProductContainer from './Components/ProductContainer/ProductContainer.jsx
 import Details from './Components/Details/Details.jsx';
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import CartItem from './Components/CartItem/CartItem.jsx';
+import UpcomingItems from './Components/UpcomingItems/UpcomingItems.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: 'upcomingitems',
+        element: <UpcomingItems></UpcomingItems>,
+        loader: () => fetch('/newData.json')
       },
       {
         path: "statics",

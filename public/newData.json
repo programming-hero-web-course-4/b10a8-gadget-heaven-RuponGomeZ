@@ -1,0 +1,77 @@
+[
+    {
+        "id": 18,
+        "title": "Lenovo Legion 5 Pro",
+        "image": "https://picsum.photos/300/200?random=11",
+        "category": "Laptops",
+        "price": 1499.99,
+        "desc": "Gaming laptop with high refresh rate display and powerful GPU.",
+        "specs": [
+            "AMD Ryzen 7",
+            "16GB RAM",
+            "1TB SSD"
+        ],
+        "available": true,
+        "rating": 4.8
+    },
+    {
+        "id": 19,
+        "title": "Razer Blade 15",
+        "image": "https://picsum.photos/300/200?random=12",
+        "category": "Laptops",
+        "price": 1999.99,
+        "desc": "Premium gaming laptop with sleek design and top-tier performance.",
+        "specs": [
+            "Intel i7 Processor",
+            "32GB RAM",
+            "1TB SSD"
+        ],
+        "available": true,
+        "rating": 4.9
+    },
+    {
+        "id": 20,
+        "title": "Xiaomi 13 Pro",
+        "image": "https://picsum.photos/300/200?random=13",
+        "category": "Phones",
+        "price": 1099.99,
+        "desc": "Flagship phone with Leica camera and fast charging.",
+        "specs": [
+            "6.73-inch AMOLED Display",
+            "Triple Camera",
+            "4820mAh Battery"
+        ],
+        "available": true,
+        "rating": 4.7
+    },
+    {
+        "id": 21,
+        "title": "Sony WH-1000XM5",
+        "image": "https://picsum.photos/300/200?random=14",
+        "category": "Accessories",
+        "price": 349.99,
+        "desc": "Premium noise-canceling headphones with exceptional sound quality.",
+        "specs": [
+            "Bluetooth 5.2",
+            "30-hour battery life",
+            "Touch controls"
+        ],
+        "available": true,
+        "rating": 4.8
+    },
+    {
+        "id": 22,
+        "title": "Samsung Galaxy Tab S8 Ultra",
+        "image": "https://picsum.photos/300/200?random=15",
+        "category": "Tablets",
+        "price": 1099.99,
+        "desc": "High-end tablet with a large display and S Pen support.",
+        "specs": [
+            "14.6-inch Super AMOLED Display",
+            "Snapdragon 8 Gen 1",
+            "11200mAh Battery"
+        ],
+        "available": true,
+        "rating": 4.7
+    }
+]

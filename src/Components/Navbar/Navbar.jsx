@@ -44,6 +44,7 @@ const NavBar = () => {
                         <div className={location.pathname === '/' ? "underline" : ""}><NavLink>Home</NavLink></div>
                         <div className={location.pathname === '/statics' ? "underline" : ""}> <NavLink to={"/statics"}>Statistics</NavLink></div>
                         <div className={location.pathname === '/dashboard' ? "underline" : ""}><NavLink to={'/dashboard'}>Dashboard</NavLink></div>
+                        <div className={location.pathname === '/upcomingitems' ? "underline" : ""}><NavLink to={'/upcomingitems'}>Upcoming</NavLink></div>
                     </div>
                 </div>
                 <div className="navbar-end">
