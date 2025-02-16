@@ -1,6 +1,5 @@
-
 [
-    {
+  {
       "id": 1,
       "title": "Dell XPS 15",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -8,14 +7,14 @@
       "price": 1299.99,
       "desc": "High-performance laptop with powerful GPU and fast processor.",
       "specs": [
-        "Intel i7 Processor",
-        "16GB RAM",
-        "512GB SSD"
+          "Intel i7 Processor",
+          "16GB RAM",
+          "512GB SSD"
       ],
       "available": true,
       "rating": 4.8
-    },
-    {
+  },
+  {
       "id": 2,
       "title": "MacBook Air M2",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -23,14 +22,14 @@
       "price": 999.99,
       "desc": "Lightweight and stylish ultrabook with long battery life.",
       "specs": [
-        "Apple M2 Chip",
-        "8GB RAM",
-        "256GB SSD"
+          "Apple M2 Chip",
+          "8GB RAM",
+          "256GB SSD"
       ],
       "available": true,
       "rating": 4.5
-    },
-    {
+  },
+  {
       "id": 3,
       "title": "HP Spectre x360",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -38,14 +37,14 @@
       "price": 1199.99,
       "desc": "Convertible laptop with a sleek design and excellent performance.",
       "specs": [
-        "Intel i5 Processor",
-        "12GB RAM",
-        "512GB SSD"
+          "Intel i5 Processor",
+          "12GB RAM",
+          "512GB SSD"
       ],
       "available": true,
       "rating": 4.6
-    },
-    {
+  },
+  {
       "id": 4,
       "title": "Samsung Galaxy S23 Ultra",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -53,14 +52,14 @@
       "price": 999.99,
       "desc": "Top-tier smartphone with excellent camera and display.",
       "specs": [
-        "6.8-inch AMOLED Display",
-        "Quad Camera System",
-        "5000mAh Battery"
+          "6.8-inch AMOLED Display",
+          "Quad Camera System",
+          "5000mAh Battery"
       ],
       "available": true,
       "rating": 4.9
-    },
-    {
+  },
+  {
       "id": 5,
       "title": "OnePlus 11",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -68,14 +67,14 @@
       "price": 699.99,
       "desc": "Affordable smartphone with decent performance and good battery life.",
       "specs": [
-        "6.7-inch AMOLED Display",
-        "Triple Camera",
-        "4500mAh Battery"
+          "6.7-inch AMOLED Display",
+          "Triple Camera",
+          "4500mAh Battery"
       ],
       "available": true,
       "rating": 4.3
-    },
-    {
+  },
+  {
       "id": 6,
       "title": "Google Pixel 7 Pro",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -83,44 +82,44 @@
       "price": 899.99,
       "desc": "Flagship phone with an exceptional camera and clean Android experience.",
       "specs": [
-        "6.7-inch OLED Display",
-        "Triple Camera",
-        "5000mAh Battery"
+          "6.7-inch OLED Display",
+          "Triple Camera",
+          "5000mAh Battery"
       ],
       "available": true,
       "rating": 4.7
-    },
-    {
+  },
+  {
       "id": 7,
       "title": "Sony WF-1000XM4",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
       "category": "Accessories",
-      "price": 59.99,
+      "price": 279.99,
       "desc": "Compact and high-quality wireless earbuds with noise cancellation.",
       "specs": [
-        "Bluetooth 5.2",
-        "Up to 10 hours battery life",
-        "Water-resistant"
+          "Bluetooth 5.2",
+          "Up to 10 hours battery life",
+          "Water-resistant"
       ],
       "available": true,
       "rating": 4.6
-    },
-    {
+  },
+  {
       "id": 8,
       "title": "Anker PowerCore 10000",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
       "category": "Accessories",
-      "price": 39.99,
+      "price": 59.99,
       "desc": "High-capacity power bank with fast charging capabilities.",
       "specs": [
-        "10,000mAh Capacity",
-        "USB-C Fast Charging",
-        "Lightweight Design"
+          "10,000mAh Capacity",
+          "USB-C Fast Charging",
+          "Lightweight Design"
       ],
       "available": true,
       "rating": 4.7
-    },
-    {
+  },
+  {
       "id": 9,
       "title": "Logitech MX Master 3S",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -128,29 +127,29 @@
       "price": 99.99,
       "desc": "Premium wireless mouse with ergonomic design and customizable buttons.",
       "specs": [
-        "Wireless Connectivity",
-        "4000 DPI Sensor",
-        "Rechargeable Battery"
+          "Wireless Connectivity",
+          "4000 DPI Sensor",
+          "Rechargeable Battery"
       ],
       "available": true,
       "rating": 4.8
-    },
-    {
+  },
+  {
       "id": 10,
       "title": "Apple Watch Series 8",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
       "category": "Smart Watches",
-      "price": 149.99,
+      "price": 399.99,
       "desc": "Feature-rich smartwatch with fitness tracking and heart rate monitoring.",
       "specs": [
-        "Heart Rate Monitor",
-        "Sleep Tracking",
-        "Waterproof Design"
+          "Heart Rate Monitor",
+          "Sleep Tracking",
+          "Waterproof Design"
       ],
       "available": true,
       "rating": 4.4
-    },
-    {
+  },
+  {
       "id": 11,
       "title": "Samsung Galaxy Watch 5",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -158,14 +157,14 @@
       "price": 299.99,
       "desc": "Elegant smartwatch with premium build and advanced features.",
       "specs": [
-        "Stainless Steel Case",
-        "AMOLED Display",
-        "Wireless Charging"
+          "Stainless Steel Case",
+          "AMOLED Display",
+          "Wireless Charging"
       ],
       "available": true,
       "rating": 4.8
-    },
-    {
+  },
+  {
       "id": 12,
       "title": "Fitbit Sense 2",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -173,14 +172,14 @@
       "price": 199.99,
       "desc": "Advanced health and fitness tracking with stress management tools.",
       "specs": [
-        "Heart Rate Monitor",
-        "ECG App",
-        "6+ Days Battery Life"
+          "Heart Rate Monitor",
+          "ECG App",
+          "6+ Days Battery Life"
       ],
       "available": true,
       "rating": 4.5
-    },
-    {
+  },
+  {
       "id": 13,
       "title": "MacBook Pro 16",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -188,14 +187,14 @@
       "price": 1999.99,
       "desc": "Powerful MacBook Pro with M-series chip and Retina Display.",
       "specs": [
-        "Apple M2 Pro Chip",
-        "16GB RAM",
-        "512GB SSD"
+          "Apple M2 Pro Chip",
+          "16GB RAM",
+          "512GB SSD"
       ],
       "available": true,
       "rating": 4.9
-    },
-    {
+  },
+  {
       "id": 14,
       "title": "MacBook Air M1",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -203,14 +202,14 @@
       "price": 1299.99,
       "desc": "Lightweight and fast MacBook Air with great battery life.",
       "specs": [
-        "Apple M1 Chip",
-        "8GB RAM",
-        "256GB SSD"
+          "Apple M1 Chip",
+          "8GB RAM",
+          "256GB SSD"
       ],
       "available": true,
       "rating": 4.7
-    },
-    {
+  },
+  {
       "id": 15,
       "title": "iPhone 14 Pro Max",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -218,14 +217,14 @@
       "price": 1199.99,
       "desc": "Latest iPhone with A16 Bionic chip and ProMotion Display.",
       "specs": [
-        "6.7-inch OLED Display",
-        "Triple Camera System",
-        "iOS 16"
+          "6.7-inch OLED Display",
+          "Triple Camera System",
+          "iOS 16"
       ],
       "available": true,
       "rating": 4.9
-    },
-    {
+  },
+  {
       "id": 16,
       "title": "iPhone 13 Mini",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -233,14 +232,14 @@
       "price": 899.99,
       "desc": "Compact yet powerful iPhone with excellent battery life.",
       "specs": [
-        "5.4-inch Super Retina Display",
-        "Dual Camera System",
-        "iOS 15"
+          "5.4-inch Super Retina Display",
+          "Dual Camera System",
+          "iOS 15"
       ],
       "available": true,
       "rating": 4.6
-    },
-    {
+  },
+  {
       "id": 17,
       "title": "iPhone SE (2022)",
       "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
@@ -248,11 +247,56 @@
       "price": 499.99,
       "desc": "Affordable iPhone with powerful A15 Bionic chip.",
       "specs": [
-        "4.7-inch Retina Display",
-        "Single Camera",
-        "iOS 15"
+          "4.7-inch Retina Display",
+          "Single Camera",
+          "iOS 15"
       ],
       "available": true,
       "rating": 4.4
-    }
-  ]
+  },
+  {
+      "id": 18,
+      "title": "Lenovo Legion 5 Pro",
+      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "category": "Laptops",
+      "price": 1499.99,
+      "desc": "Gaming laptop with high refresh rate display and powerful GPU.",
+      "specs": [
+          "AMD Ryzen 7",
+          "16GB RAM",
+          "1TB SSD"
+      ],
+      "available": true,
+      "rating": 4.8
+  },
+  {
+      "id": 19,
+      "title": "Razer Blade 15",
+      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "category": "Laptops",
+      "price": 1999.99,
+      "desc": "Premium gaming laptop with sleek design and top-tier performance.",
+      "specs": [
+          "Intel i7 Processor",
+          "32GB RAM",
+          "1TB SSD"
+      ],
+      "available": true,
+      "rating": 4.9
+  },
+  {
+      "id": 20,
+      "title": "Xiaomi 13 Pro",
+      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "category": "Phones",
+      "price": 1099.99,
+      "desc": "Flagship phone with Leica camera and fast charging.",
+      "specs": [
+          "6.73-inch AMOLED Display",
+          "Triple Camera",
+          "4820mAh Battery"
+      ],
+      "available": true,
+      "rating": 4.7
+  }
+]

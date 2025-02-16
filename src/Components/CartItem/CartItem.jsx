@@ -1,4 +1,6 @@
-const CartItem = ({ products }) => {
+import { IoCloseCircleOutline } from "react-icons/io5";
+
+const CartItem = ({ products, handleRemove }) => {
     return (
         <div className="pt-7 mt-24 mb-8 mx-auto container">
             {products.map(product => (
@@ -11,6 +13,9 @@ const CartItem = ({ products }) => {
                             <h2 className="font-bold">{product.title}</h2>
                             <p>{product.desc}</p>
                             <p className="font-bold">Price:$ {product.price}</p>
+                        </div>
+                        <div onClick={() => handleRemove(product.id)} className="ml-auto text-2xl cursor-grab text-red-700">
+                            <IoCloseCircleOutline />
                         </div>
                     </div>
                 </div>

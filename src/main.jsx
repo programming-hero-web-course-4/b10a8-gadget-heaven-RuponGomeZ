@@ -27,7 +27,8 @@ const router = createBrowserRouter([
       },
       {
         path: "statics",
-        element: <Statics></Statics>
+        element: <Statics></Statics>,
+        loader: () => fetch('/data.json')
       },
       {
         path: "productContainer",

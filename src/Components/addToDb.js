@@ -23,6 +23,7 @@ const addTostoredCartList = (cart) => {
         storedList.push(cart);
         const storedCartlistStr = JSON.stringify(storedList);
         localStorage.setItem('cart', storedCartlistStr);
+        toast("Successfully Added to your cart")
     }
 }
 
@@ -50,7 +51,12 @@ const addToWishlist = (product) => {
         storedWishlist.push(product);
         const storedWishlistStr = JSON.stringify(storedWishlist);
         localStorage.setItem('wish-list', storedWishlistStr);
+        toast("Successfully Added to your wishlist")
     }
+}
+
+const removeFromCart = () => {
+
 }
 
 export { addTostoredCartList, getStoredCartList, addToWishlist, getWishList }
