@@ -34,8 +34,12 @@ const Products = () => {
         <div className="pt-12">
             <h2 className="text-center text-4xl font-bold mb-24">Explore Cutting-Edge Gadgets</h2>
             <div className="flex mx-auto justify-center gap-8">
-                <Categories handleSetCategory={handleSetCategory} products={products}></Categories>
-                <Product products={filteredProducts}></Product>
+                <Categories
+                    handleSetCategory={handleSetCategory}
+                    products={products}
+                    selectedCategory={selectedCategory}
+                />
+                <Product products={filteredProducts} />
             </div>
         </div>
     );

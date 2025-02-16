@@ -2,7 +2,7 @@
     {
         "id": 18,
         "title": "Lenovo Legion 5 Pro",
-        "image": "https://picsum.photos/300/200?random=11",
+        "image": "https://i.ibb.co/zhL4S29r/Legion-Pro-5-Price-in-Bangladesh.jpg",
         "category": "Laptops",
         "price": 1499.99,
         "desc": "Gaming laptop with high refresh rate display and powerful GPU.",
@@ -17,7 +17,7 @@
     {
         "id": 19,
         "title": "Razer Blade 15",
-        "image": "https://picsum.photos/300/200?random=12",
+        "image": "https://i.ibb.co/6J73qLkg/Razer-Blade-15.jpg",
         "category": "Laptops",
         "price": 1999.99,
         "desc": "Premium gaming laptop with sleek design and top-tier performance.",
@@ -32,7 +32,7 @@
     {
         "id": 20,
         "title": "Xiaomi 13 Pro",
-        "image": "https://picsum.photos/300/200?random=13",
+        "image": "https://i.ibb.co/hJM5j6G3/Xiaomi-13-Pro-Ceramic-Black-4613.jpg",
         "category": "Phones",
         "price": 1099.99,
         "desc": "Flagship phone with Leica camera and fast charging.",
@@ -47,7 +47,7 @@
     {
         "id": 21,
         "title": "Sony WH-1000XM5",
-        "image": "https://picsum.photos/300/200?random=14",
+        "image": "https://i.ibb.co.com/zhL4S29r/Legion-Pro-5-Price-in-Bangladesh.jpg",
         "category": "Accessories",
         "price": 349.99,
         "desc": "Premium noise-canceling headphones with exceptional sound quality.",
@@ -62,7 +62,7 @@
     {
         "id": 22,
         "title": "Samsung Galaxy Tab S8 Ultra",
-        "image": "https://picsum.photos/300/200?random=15",
+        "image": "https://i.ibb.co/vCQQ19X0/Samsung-Galaxy-Tab-S8-Ultra.jpg",
         "category": "Tablets",
         "price": 1099.99,
         "desc": "High-end tablet with a large display and S Pen support.",

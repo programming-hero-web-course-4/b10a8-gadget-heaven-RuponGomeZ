@@ -2,7 +2,7 @@
   {
       "id": 1,
       "title": "Dell XPS 15",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/35k2dqTN/Dell-XPS-15-4-6.jpg",
       "category": "Laptops",
       "price": 1299.99,
       "desc": "High-performance laptop with powerful GPU and fast processor.",
@@ -17,7 +17,7 @@
   {
       "id": 2,
       "title": "MacBook Air M2",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/jkCc3yWh/Mac-Book-Air-M2-Midnight-8137.jpg",
       "category": "Laptops",
       "price": 999.99,
       "desc": "Lightweight and stylish ultrabook with long battery life.",
@@ -32,7 +32,7 @@
   {
       "id": 3,
       "title": "HP Spectre x360",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/k2Hm9RXw/Hp-Spectre-X360-i7-Custom-Mac-BD-1.webp",
       "category": "Laptops",
       "price": 1199.99,
       "desc": "Convertible laptop with a sleek design and excellent performance.",
@@ -47,7 +47,7 @@
   {
       "id": 4,
       "title": "Samsung Galaxy S23 Ultra",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/B20Hp2bC/samsung-galaxy-s23-ultra.jpg",
       "category": "Phones",
       "price": 999.99,
       "desc": "Top-tier smartphone with excellent camera and display.",
@@ -62,7 +62,7 @@
   {
       "id": 5,
       "title": "OnePlus 11",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/DfMT6S3F/Oneplus11-800x800.png",
       "category": "Phones",
       "price": 699.99,
       "desc": "Affordable smartphone with decent performance and good battery life.",
@@ -77,7 +77,7 @@
   {
       "id": 6,
       "title": "Google Pixel 7 Pro",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/nMWTz7pY/Google-Pixel-7-Pro-featured-image-packshot-review.jpg",
       "category": "Phones",
       "price": 899.99,
       "desc": "Flagship phone with an exceptional camera and clean Android experience.",
@@ -92,7 +92,7 @@
   {
       "id": 7,
       "title": "Sony WF-1000XM4",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/jn1b2Dk/sony-wf-1000xm4.jpg",
       "category": "Accessories",
       "price": 279.99,
       "desc": "Compact and high-quality wireless earbuds with noise cancellation.",
@@ -107,7 +107,7 @@
   {
       "id": 8,
       "title": "Anker PowerCore 10000",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/nsVVg7CW/A1239011-TD01-2878x-600x600.webp",
       "category": "Accessories",
       "price": 59.99,
       "desc": "High-capacity power bank with fast charging capabilities.",
@@ -122,7 +122,7 @@
   {
       "id": 9,
       "title": "Logitech MX Master 3S",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/HMbfYBg/Logitech-MX-Master-3-S.jpg",
       "category": "Accessories",
       "price": 99.99,
       "desc": "Premium wireless mouse with ergonomic design and customizable buttons.",
@@ -137,7 +137,7 @@
   {
       "id": 10,
       "title": "Apple Watch Series 8",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/Kz0JywcC/Apple-Watch-Series-8.jpg",
       "category": "Smart Watches",
       "price": 399.99,
       "desc": "Feature-rich smartwatch with fitness tracking and heart rate monitoring.",
@@ -152,7 +152,7 @@
   {
       "id": 11,
       "title": "Samsung Galaxy Watch 5",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/7JPyC9n2/Samsung-Galaxy-Watch-5-Silver-40mm-600x600.jpg",
       "category": "Smart Watches",
       "price": 299.99,
       "desc": "Elegant smartwatch with premium build and advanced features.",
@@ -167,7 +167,7 @@
   {
       "id": 12,
       "title": "Fitbit Sense 2",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/zh7rxsmH/Fitbit-Sense-2-Advanced-Health-and-Fitness-Smartwatch.jpg",
       "category": "Smart Watches",
       "price": 199.99,
       "desc": "Advanced health and fitness tracking with stress management tools.",
@@ -182,7 +182,7 @@
   {
       "id": 13,
       "title": "MacBook Pro 16",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/0j9RqHmr/Mac-Book-Pro-M3-2023-Space-Black-Price-in-Bangladesh-MC-Solution-BD-1.webp",
       "category": "MacBook",
       "price": 1999.99,
       "desc": "Powerful MacBook Pro with M-series chip and Retina Display.",
@@ -197,7 +197,7 @@
   {
       "id": 14,
       "title": "MacBook Air M1",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/Kp3mCvqx/macbook-air-m1-8-256gb-mc-solution-bd.webp",
       "category": "MacBook",
       "price": 1299.99,
       "desc": "Lightweight and fast MacBook Air with great battery life.",
@@ -212,7 +212,7 @@
   {
       "id": 15,
       "title": "iPhone 14 Pro Max",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/B5Sqykz1/i-Phone-14-Pro-Space-Black-1138.jpg",
       "category": "Iphone",
       "price": 1199.99,
       "desc": "Latest iPhone with A16 Bionic chip and ProMotion Display.",
@@ -227,7 +227,7 @@
   {
       "id": 16,
       "title": "iPhone 13 Mini",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/5hsQ7s97/Apple-i-Phone-13-mini-Pink-500x500.jpg",
       "category": "Iphone",
       "price": 899.99,
       "desc": "Compact yet powerful iPhone with excellent battery life.",
@@ -242,7 +242,7 @@
   {
       "id": 17,
       "title": "iPhone SE (2022)",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/Lzc2q5zk/Iphone-SE.jpg",
       "category": "Iphone",
       "price": 499.99,
       "desc": "Affordable iPhone with powerful A15 Bionic chip.",
@@ -257,7 +257,7 @@
   {
       "id": 18,
       "title": "Lenovo Legion 5 Pro",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/zhL4S29r/Legion-Pro-5-Price-in-Bangladesh.jpg",
       "category": "Laptops",
       "price": 1499.99,
       "desc": "Gaming laptop with high refresh rate display and powerful GPU.",
@@ -272,7 +272,7 @@
   {
       "id": 19,
       "title": "Razer Blade 15",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/27xGFmJj/Razer-Blade-15.jpg",
       "category": "Laptops",
       "price": 1999.99,
       "desc": "Premium gaming laptop with sleek design and top-tier performance.",
@@ -287,7 +287,7 @@
   {
       "id": 20,
       "title": "Xiaomi 13 Pro",
-      "image": "https://i.ibb.co.com/zYJfqjj/Apple-i-Phone-16-Pro-hero-geo-240909-inline-jpg-large.jpg",
+      "image": "https://i.ibb.co.com/hJM5j6G3/Xiaomi-13-Pro-Ceramic-Black-4613.jpg",
       "category": "Phones",
       "price": 1099.99,
       "desc": "Flagship phone with Leica camera and fast charging.",
