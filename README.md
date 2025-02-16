@@ -1,8 +1,38 @@
-# React + Vite
+# GadgetHeaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Your go-to destination for the latest and greatest gadgets ✨
 
-Currently, two official plugins are available:
+## Live Website
+[https://magical-kelpie-c79162.netlify.app/](#)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirement Document
+[https://drive.google.com/file/d/1374KZKSfnLQ-wmR0Un8tFyNR-SBBvpJ6/view](#)
+
+## React Fundamental Concepts Used
+- Components
+- Props
+- State
+- Hooks (useState, useEffect, useContext, useReducer)
+- Context API
+- React Router
+
+## Data Handling and Management
+- Context API
+- LocalStorage
+
+## Features
+1. Structured navigation bar with active route indication.
+2. Home page with banner, categories sidebar, and gadgets cards.
+3. Details page with product information and add to cart/wishlist functionality.
+4. Dashboard page with cart and wishlist tabs, total price calculation, and sorting by price.
+5. Statistics page with a composed chart showing price vs. product name.
+
+## Toast Notifications
+- Item added to cart.
+- Item added to wishlist.
+- Different messages for adding to cart and wishlist.
+
+## Additional Features
+- Different background colors for the home page and other pages.
+- Purchase button functionality with modal and navigation.
+- Favicon and dynamic title for each page.
